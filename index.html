@@ -27,16 +27,6 @@
 L.circle([41.8719,12.5674
 ],{color:'red',fillColor:'#f03',fillOpacity:0.5,radius:351200}).addTo(map).bindPopup('Italy : 7024');
         
-        
-        
-        L.geoJSON(data, {
-    style: function (layer) {
-        return {color: "red"};
-    }
-}).bindPopup(function (layer) {
-    return layer.feature.properties.OUTCOME1;
-}).addTo(map);
-
 
         
     </script>
